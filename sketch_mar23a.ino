@@ -50,7 +50,7 @@ void loop() {
   // read light
   const int light = analogRead(LIGHTPIN);
   // read ppms
-  const int ppm = 0;
+  const int ppm = analogRead(PPMPIN);
   
   // check if any reads failed
   //if (isnan(humi1) || isnan(humi2))
